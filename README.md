@@ -5,7 +5,7 @@
 wget https://github.com/cloud-fs/cloud-fs.github.io/releases/download/v0.5.9/clouddrive-2-linux-x86_64-0.5.9.tgz
 ```
 
-2.解压到指定目录
+2.解压安装包
 ```bash
 tar zxvf clouddrive-2-linux-x86_64-0.5.9.tgz
 ```
