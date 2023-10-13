@@ -6,8 +6,11 @@ wget https://github.com/cloud-fs/cloud-fs.github.io/releases/download/v0.5.9/clo
 ```
 
 2.解压到指定目录
+```bash
 tar zxvf cloud-fs.github.io/releases/download/v0.5.9/clouddrive-2-linux-x86_64-0.5.9.tgz -d /usr/bin
+```
 
 3.删除安装包
+```bash
 rm ~/cloud-fs.github.io/releases/download/v0.5.9/clouddrive-2-linux-x86_64-0.5.9.tgz
-
+```
