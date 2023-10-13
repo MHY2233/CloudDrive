@@ -12,5 +12,23 @@ tar zxvf clouddrive-2-linux-x86_64-0.5.9.tgz
 
 3.删除安装包
 ```bash
-rm ~/cloud-fs.github.io/releases/download/v0.5.9/clouddrive-2-linux-x86_64-0.5.9.tgz
+rm ~/clouddrive-2-linux-x86_64-0.5.9.tgz
 ```
+4.配置开机启动
+```bash
+vim /etc/systemd/system/clouddrive-2.service
+
+写入以下内容
+[Unit]
+Description=clouddrive service
+Wants=network.target
+After=network.target network.service
+
+[Service]
+Type=simple
+WorkingDirectory=/root/clouddrive-2-linux-x86_64-0.5.9
+ExecStart=/root/clouddrive-2-linux-x86_64-0.5.9/clouddrive server
+KillMode=process
+
+[Install]
+WantedBy=multi-user.target
