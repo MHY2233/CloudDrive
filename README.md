@@ -32,3 +32,6 @@ KillMode=process
 
 [Install]
 WantedBy=multi-user.target
+
+# 刷新systemd 配置文件
+systemctl daemon-reload
