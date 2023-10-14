@@ -1,12 +1,12 @@
 [Unit]
-Description=clouddrive service
+Description=clouddrive
 Wants=network.target
 After=network.target network.service
 
 [Service]
 Type=simple
-WorkingDirectory=/usr/bin/clouddrive-2-linux-x86_64-0.5.9
-ExecStart=/usr/bin/clouddrive-2-linux-x86_64-0.5.9/clouddrive server
+WorkingDirectory=/root/clouddrive-2-linux-x86_64-0.5.9
+ExecStart=/root/clouddrive-2-linux-x86_64-0.5.9/clouddrive
 KillMode=process
 
 [Install]
