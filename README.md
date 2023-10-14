@@ -43,3 +43,4 @@ systemctl daemon-reload
 #设置clouddrive开机自启
 systemctl enable clouddrive
 ```
+在浏览器上输入 你的ip:19798
