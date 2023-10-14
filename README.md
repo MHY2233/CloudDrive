@@ -18,7 +18,7 @@ rm ~/clouddrive-2-linux-x86_64-0.5.9.tgz
 ```bash
 vim /etc/systemd/system/clouddrive.service
 
-写入以下内容
+#写入以下内容
 [Unit]
 Description=clouddrive service
 Wants=network.target
@@ -35,3 +35,7 @@ WantedBy=multi-user.target
 
 # 刷新systemd 配置文件
 systemctl daemon-reload
+
+#设置clouddrive开机自启
+systemctl enable clouddrive
+```
