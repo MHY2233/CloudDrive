@@ -18,10 +18,6 @@ rm ~/clouddrive-2-linux-x86_64-0.5.9.tgz
 ```bash
 vim /etc/systemd/system/clouddrive.service
 
-#如果你不会使用vim,按以下方式直接下载service文件
-1.cd/etc/systemd/system/
-2.wget https://github.com/MHY2233/Clouddrive-2/blob/main/clouddrive.service
-
 #写入以下内容
 [Unit]
 Description=clouddrive service
@@ -36,6 +32,10 @@ KillMode=process
 
 [Install]
 WantedBy=multi-user.target
+
+#如果你不会使用vim,按以下方式直接下载service文件
+1.cd/etc/systemd/system/
+2.wget https://github.com/MHY2233/Clouddrive-2/blob/main/clouddrive.service
 
 # 刷新systemd 配置文件
 systemctl daemon-reload
