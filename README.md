@@ -16,7 +16,7 @@ rm ~/clouddrive-2-linux-x86_64-0.5.9.tgz
 ```
 4.配置开机启动
 ```bash
-vim /etc/systemd/system/clouddrive-2.service
+vim /etc/systemd/system/clouddrive.service
 
 写入以下内容
 [Unit]
