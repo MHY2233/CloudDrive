@@ -40,6 +40,8 @@ WantedBy=multi-user.target
 # 刷新systemd 配置文件
 systemctl daemon-reload
 
+# 开启clouddrive
+systemctl start clouddrive
 #设置clouddrive开机自启
 systemctl enable clouddrive
 ```
