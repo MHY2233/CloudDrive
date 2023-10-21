@@ -7,7 +7,7 @@ wget https://github.com/cloud-fs/cloud-fs.github.io/releases/download/v0.5.9/clo
 
 2.解压安装包
 ```bash
-tar zxvf clouddrive-2-linux-x86_64-0.5.9.tgz 
+tar -zxvf clouddrive-2-linux-x86_64-0.5.9.tgz -C /usr/local/bin/
 ```
 
 3.删除安装包
@@ -26,8 +26,8 @@ After=network.target network.service
 
 [Service]
 Type=simple
-WorkingDirectory=/root/clouddrive-2-linux-x86_64-0.5.9
-ExecStart=/root/clouddrive-2-linux-x86_64-0.5.9/clouddrive server
+WorkingDirectory=/usr/local/bin/clouddrive-2-linux-x86_64-0.5.9
+ExecStart=/usr/local/bin/clouddrive-2-linux-x86_64-0.5.9/clouddrive server
 KillMode=process
 
 [Install]
