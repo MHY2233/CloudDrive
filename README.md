@@ -15,6 +15,7 @@ tar -zxvf clouddrive-2-linux-x86_64-0.5.9.tgz -C /usr/local/bin/
 rm ~/clouddrive-2-linux-x86_64-0.5.9.tgz
 ```
 4.配置开机启动
+curl -Lo /etc/systemd/system/clouddrive.service https://raw.githubusercontent.com/MHY2233/clouddrive-install/main/clouddrive.service
 ```bash
 vim /etc/systemd/system/clouddrive.service
 
