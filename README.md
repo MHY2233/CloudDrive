@@ -18,12 +18,13 @@ rm ~/clouddrive-2-linux-x86_64-0.5.9.tgz
     
     curl -Lo /etc/systemd/system/clouddrive.service https://raw.githubusercontent.com/MHY2233/clouddrive-install/main/clouddrive.service
 
-# 刷新systemd 配置文件
+5.刷新systemd 配置文件
 systemctl daemon-reload
 
-# 开启clouddrive
+6.开启clouddrive
 systemctl start clouddrive
-#设置clouddrive开机自启
+
+7.运行clouddrive开机自启
 systemctl enable clouddrive
-```
+
 在浏览器上输入 你的ip:19798
