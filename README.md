@@ -14,4 +14,4 @@
 
         systemctl status clouddrive
 
-- **10.在浏览器上输入 你的ip:19798**
+- **5.在浏览器上输入 你的ip:19798**
