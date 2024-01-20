@@ -5,8 +5,8 @@ After=network.target network.service
 
 [Service]
 Type=simple
-WorkingDirectory=/usr/local/bin/clouddrive-2-linux-x86_64-0.5.14
-ExecStart=/usr/local/bin/clouddrive-2-linux-x86_64-0.5.14/clouddrive server
+WorkingDirectory=/usr/local/bin/clouddrive-2
+ExecStart=/usr/local/bin/clouddrive-2/clouddrive server
 KillMode=process
 
 [Install]
