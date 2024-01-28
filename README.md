@@ -1,4 +1,4 @@
-# [**查看 Clouddrive-2 最新发行版本**](https://github.com/cloud-fs/cloud-fs.github.io/releases)
+# [**Clouddrive-2 最新版本**](https://github.com/cloud-fs/cloud-fs.github.io/releases)
 
 - **1.安装程序**
 
