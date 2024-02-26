@@ -2,7 +2,7 @@
 
 - **1.安装程序**
 
-        wget https://github.com/cloud-fs/cloud-fs.github.io/releases/download/v0.6.6/clouddrive-2-linux-x86_64-0.6.6.tgz && tar -zxvf clouddrive-2-linux-x86_64-0.6.6.tgz -C /usr/local/bin/ && rm ~/clouddrive-2-linux-x86_64-0.6.6.tgz
+        wget https://github.com/cloud-fs/cloud-fs.github.io/releases/download/v0.6.7/clouddrive-2-linux-x86_64-0.6.7.tgz && tar -zxvf clouddrive-2-linux-x86_64-0.6.7.tgz -C /usr/local/bin/ && rm ~/clouddrive-2-linux-x86_64-0.6.7.tgz
 
 - **2.配置开机启动**
     
